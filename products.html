@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #357ab8;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item header">Product Name</div>
+        <div class="grid-item header">Price</div>
+        <div class="grid-item header">Category</div>
+
+        <div class="grid-item">Laptop</div>
+        <div class="grid-item">$50</div>
+        <div class="grid-item">Electronics</div>
+
+        <div class="grid-item">To Kill a Mockingbird</div>
+        <div class="grid-item">$25</div>
+        <div class="grid-item">Books</div>
+
+        <div class="grid-item">Denim Jacket</div>
+        <div class="grid-item">$12</div>
+        <div class="grid-item">Clothing</div>
+
+        <div class="grid-item">Pearl Necklace</div>
+        <div class="grid-item">$100</div>
+        <div class="grid-item">Accessories</div>
+
+        <div class="grid-item">Cabinet</div>
+        <div class="grid-item">$70</div>
+        <div class="grid-item">Home Appliances</div>
+    </div>
+</body>
+</html>

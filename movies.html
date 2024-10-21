@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #e67e22;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #d65e12;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item header">Title</div>
+        <div class="grid-item header">Director</div>
+        <div class="grid-item header">Year</div>
+        
+        <div class="grid-item">Inception</div>
+        <div class="grid-item">Christopher Nolan</div>
+        <div class="grid-item">2010</div>
+
+        <div class="grid-item">The Matrix</div>
+        <div class="grid-item">Lana & Lilly Wachowski</div>
+        <div class="grid-item">1999</div>
+
+        <div class="grid-item">Interstellar</div>
+        <div class="grid-item">Christopher Nolan</div>
+        <div class="grid-item">2014</div>
+
+        <div class="grid-item">The Shawshank Redemption</div>
+        <div class="grid-item">Frank Darabont</div>
+        <div class="grid-item">1994</div>
+
+        <div class="grid-item">Pulp Fiction</div>
+        <div class="grid-item">Quentin Tarantino</div>
+        <div class="grid-item">1994</div>
+    </div>
+</body>
+</html>

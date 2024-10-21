@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #e94e77;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #b33760;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item header">Employee ID</div>
+        <div class="grid-item header">Name</div>
+        <div class="grid-item header">Position</div>
+        <div class="grid-item header">Email</div>
+
+        <div class="grid-item">001</div>
+        <div class="grid-item">Sam Wilson</div>
+        <div class="grid-item">Designer</div>
+        <div class="grid-item">sam.wilson@example.com</div>
+
+        <div class="grid-item">002</div>
+        <div class="grid-item">Alice Johnson</div>
+        <div class="grid-item">HR Specialist</div>
+        <div class="grid-item">alice.johnson@example.com</div>
+
+        <div class="grid-item">003</div>
+        <div class="grid-item">Bob Lee</div>
+        <div class="grid-item">Marketing Manager</div>
+        <div class="grid-item">bob.lee@example.com</div>
+
+        <div class="grid-item">004</div>
+        <div class="grid-item">Emily Davis</div>
+        <div class="grid-item">Sales Associate</div>
+        <div class="grid-item">emily.davis@example.com</div>
+        
+        <div class="grid-item">005</div>
+        <div class="grid-item">Michael Brown</div>
+        <div class="grid-item">IT Support</div>
+        <div class="grid-item">michael.brown@example.com</div>
+    </div>
+</body>
+</html>
